@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.error-message {
+    color: red;
+}
+
+.success-message {
+    color: green;
+}
+
+.divFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    width: 250px;
+    height: 25px;
+}
+
+input,
+label,
+button {
+    margin: 10px;
+}
+
+form button {
+    padding: 5px;
+    width: 100px;
+}
+
+h1,
+h2 {
+    margin: 10px;
+}
+
+#errorMessage {
+    margin: 10px;
+}
+
+#successMessage {
+    margin: 10px;
+}
+
+#employeeList {
+    margin: 10px;
+}
