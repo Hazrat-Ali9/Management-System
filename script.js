@@ -88,3 +88,4 @@ function deleteEmployee(id) {
   employees = employees.filter((employee) => employee.id !== id);
   displayEmployees();
 }
+// Script js
